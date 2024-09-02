@@ -1,0 +1,26 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/gpui","crates/zed"
+]
+default-members = ["crates/zed"]
+
+[workspace.dependencies]
+
+[workspace.dependencies.windows]
+
+[patch.crates-io]
+
+[profile.dev]
+
+[profile.dev.package]
+
+[profile.release]
+
+[profile.release.package]
+
+# [profile.release-fast]
+
+[workspace.lints.clippy]
+
+[workspace.metadata.cargo-machete]
